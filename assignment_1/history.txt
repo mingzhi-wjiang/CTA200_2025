@@ -1,0 +1,75 @@
+    1  /cita/local/bin/passwd
+    2  /fs/lustre/scratch/mzjiang
+    3  mkdir CTA200_2025
+    4  pwd
+    5  ls
+    6  cd /home/mzjiang/CTA200_2025
+    7  pwd
+    8  mkdir assignment_1
+    9  ls
+   10  cd /home/mzjiang/CTA200_2025/assignment
+   11  cd /home/mzjiang/CTA200_2025/assignment_1
+   12  pwd
+   13  vi README.md
+   14  cat README.md
+   15  find /home/murrary/ -name "Hello_world.c"
+   16  find /home/murray/ -name "Hello_world.c"
+   17  cp /home/murray/Papers/tmp/Hello_world.c
+   18  cp /home/murray/Papers/tmp/Hello_world.c /home/mzjiang/CTA200_2025/assignment_1
+   19  ls
+   20  cp /home/murray/Papers/tmp/Hello_world.c /home/mzjiang/CTA200_2025/assignment_1
+   21  cd /home/mzjiang/CTA200_2025/assignment_1
+   22  mv Hello_world.c Hello_world_Jiang.c/py
+   23  ls
+   24  mv Hello_world.c Hello_world_Jiang.c
+   25  ls
+   26  mv Hello_world.py Hellow_world_Jiang.py
+   27  mv Hellow_world_Jiang.py Hello_world_Jiang.py
+   28  ls
+   29  gcc <Hello_world_Jiang.c>
+   30  gcc Hello_world_Jiang.c
+   31  gcc Hello_world_Jiang.c -o Hello_world.x
+   32  ./Hello_world.x
+   33  vi Hello_world.c
+   34  ./Hello_world.x
+   35  ./Hello_world.c
+   36  gcc Hello_world_Jiang.c -o Hello_world.x
+   37  ./Hello_world.x
+   38  vi Hello_world_Jiang.c
+   39  vi Hello_world.x
+   40  ./Hello_world.x
+   41  ./Hello_world_Jiang.c
+   42  vi Hello_world_Jiang.c
+   43  gcc Hello_world_Jiang.c -o Hello_world.x
+   44  ./Hello_world.x
+   45  vi Hello_world.x
+   46  vi Hello_world_Jiang.py
+   47  gcc Hello_world_Jiang.py -o Hello_world.x
+   48  python Hello_world_Jiang.py
+   49  python Hello_world_Jiang.py > output_python.txt
+   50  ls
+   51  gcc Hello_world_Jiang.c -o Hello_world.x
+   52  ./Hello_world.x > output_c.txt
+   53  ls
+   54  cat output_c.txt
+   55  history
+   56  history > history.txt
+   57  ls
+   58  cat Hello_world.c
+   59  vi Hello_world.c
+   60  cat Hello_world.c
+   61  cat history.txt
+   62  pwd
+   63  cd /home/mzjiang/CTA200_2025
+   64  git init
+   65  git add README.md
+   66  mv \home\mzjiang\CTA200_2025\assignment_1\README.md \home\mzjiang\CTA200_2025
+   67  mv \home\mzjiang\CTA200_2025\assignment_1\README.md\ \home\mzjiang\CTA200_2025
+   68  mv --help
+   69  mv README.md /home/mzjiang/CTA200_2025
+   70  cd /home/mzjiang/CTA200_2025/assignment_1
+   71  mv README.md /home/mzjiang/CTA200_2025/
+   72  cd /home/mzjiang/CTA200_2025/
+   73  ls
+   74  cd /home/mzjiang/CTA200_2025/assignment_1
+   75  history > history.txt
